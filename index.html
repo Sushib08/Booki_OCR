@@ -37,6 +37,27 @@
       </header>
 
       <main>
+        <div class="Headline">
+          <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+          <p>En plein centre-ville ou en pleine nature</p>
+        </div>
+
+        <form action="/search" method="get">
+          <div class="search-box">
+            <label for="search"><i class="fas fa-map-marker-alt"></i></label>
+            <input
+              type="text"
+              id="search"
+              name="q"
+              placeholder="Rechercher..."
+            />
+            <button class="search-btn" type="submit">
+              <span class="search-icon"><i class="fas fa-search"></i></span>
+              <span class="search-text">Rechercher</span>
+            </button>
+          </div>
+        </form>
+
         <div class="hebergements-and-populaires">
           <section class="hebergements"></section>
           <section class="populaires">
