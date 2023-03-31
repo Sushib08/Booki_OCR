@@ -218,7 +218,7 @@ input[type="text"] {
 }
 
 /* ***** Hebergements ********** */
-.hebergements {
+#hebergements {
   width: 65%;
 }
 
@@ -299,7 +299,7 @@ input[type="text"] {
 
 /****************** Activity in Marseille*********************************/
 
-.activity {
+#activity {
   margin: 65px 0;
 }
 
