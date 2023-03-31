@@ -21,6 +21,7 @@ body {
   margin: 0 auto; /* centrage horizontal */
   padding: 0 20px; /* espace pour la marge blanche */
   box-sizing: border-box; /* inclure les paddings dans la largeur max */
+  background-color: #ffffff;
 }
 
 .main-container {
@@ -44,7 +45,7 @@ header {
   padding-top: 30px;
 }
 
-a {
+nav a {
   color: black;
   text-decoration: none;
   font-size: 16px;
@@ -52,7 +53,7 @@ a {
   text-align: center;
 }
 
-a:hover {
+nav a:hover {
   color: #0065fc;
   border-top: 2px solid #0065fc;
   padding-top: 14px;
@@ -324,6 +325,39 @@ input[type="text"] {
 }
 
 /************************************************************************/
+
+/***************Footer************/
+
+footer {
+  width: auto;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-footer {
+  padding-top: 20px;
+  padding-left: 15px;
+  width: 446px;
+}
+
+.links-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+
+.links-footer a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  text-decoration: none;
+}
+
+/****************************/
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
