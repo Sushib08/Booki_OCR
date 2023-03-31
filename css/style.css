@@ -80,6 +80,11 @@ p {
 
 /************Search bar*********************/
 
+/* firefox */
+#search::-moz-placeholder {
+  color: black;
+}
+
 .search-box {
   display: flex;
   align-items: center;
@@ -368,6 +373,17 @@ footer {
     margin-left: auto; /* centrer le contenu */
     margin-right: auto;
     background-color: #fff; /* couleur de la marge blanche */
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1300px) {
+  .hebergement-cards .card {
+    width: 150px;
+    height: 250px;
+  }
+
+  .hebergement-cards img {
+    width: 150px;
   }
 }
 
