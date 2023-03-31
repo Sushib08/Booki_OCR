@@ -228,6 +228,7 @@ input[type="text"] {
   justify-content: center;
   gap: 20px;
   margin-top: 30px;
+  cursor: pointer;
 }
 
 .hebergement-cards .card {
@@ -264,6 +265,7 @@ input[type="text"] {
 .populaires-cards .card {
   display: flex;
   margin-top: 33px;
+  cursor: pointer;
 }
 
 .populaires-cards img {
@@ -305,6 +307,7 @@ input[type="text"] {
   display: flex;
   justify-content: center;
   gap: 30px;
+  cursor: pointer;
 }
 
 .activity-cards .card {
