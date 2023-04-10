@@ -1,0 +1,5 @@
+# Ignore the README file
+README.md
+
+# Ignore the .vscode folder
+.vscode/
