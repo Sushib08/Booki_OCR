@@ -533,34 +533,71 @@ footer {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
   /* ... */
+
+  body {
+    padding: 0;
+  }
+
+  * {
+    margin: 0 !important;
+  }
+
+  .main-container {
+    box-sizing: content-box;
+  }
+
   header {
     display: flex;
     flex-direction: column;
+    width: 100vw;
   }
   .logo {
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 30px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
+
   nav {
     display: flex;
     justify-content: space-around;
   }
   nav a {
     font-size: 20px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid white;
+    padding-bottom: 14px;
   }
   nav a:hover {
     color: #0065fc;
     border-bottom: 2px solid #0065fc;
-    display: inline-block;
     border-top: none;
-    padding-bottom: 14px;
+    padding-top: 0;
+  }
+
+  .Headline {
+    margin-top: 30px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 90%;
+    margin-bottom: 30px !important;
   }
 
   .Headline h1 {
-    font-size: calc(16px + (28 - 16) * ((100vw - 320px) / (1440 - 320)));
+    font-size: calc(28px + (34 - 28) * ((100vw - 320px) / (1440 - 320)));
     font-weight: 700;
     line-height: 32px;
+    margin-bottom: 10px !important;
+  }
+
+  .Headline p {
+    font-size: 20px;
+  }
+
+  .search-box {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 30px !important;
   }
   .search-text {
     display: none;
@@ -574,6 +611,12 @@ footer {
     max-height: 50px;
     max-width: 50px;
     border-radius: 15px;
+  }
+
+  .filter {
+    width: 90% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 
   .infos {
@@ -615,11 +658,14 @@ footer {
     gap: 30px;
   }
 
+  .hebergements-and-populaires section {
+    border: none;
+  }
+
   .populaires-cards {
     display: flex;
     flex-direction: column;
   }
-
   .populaires-cards .card {
     width: 100%;
   }
