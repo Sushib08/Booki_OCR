@@ -548,6 +548,7 @@ footer {
   nav {
     display: flex;
     justify-content: space-around;
+    width: 100vw;
   }
   nav a {
     font-size: 20px;
@@ -778,5 +779,10 @@ footer {
 
   .main-container {
     margin-left: 80px !important;
+    margin-right: 30px !important;
+  }
+
+  nav {
+    width: auto;
   }
 }
