@@ -366,7 +366,6 @@ footer {
   width: auto;
   background: #f2f2f2;
   display: flex;
-  justify-content: space-between;
 }
 
 .title-footer {
@@ -374,7 +373,6 @@ footer {
   padding-left: 15px;
   width: auto;
 }
-
 .links-footer {
   display: flex;
   flex-direction: column;
