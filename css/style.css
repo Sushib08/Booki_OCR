@@ -397,7 +397,7 @@ footer {
 }
 
 .title-footer {
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 .title-footer .title-footer2 {
@@ -459,7 +459,7 @@ footer {
 
 @media (min-width: 1024px) and (max-width: 1440px) {
   .hebergement-cards .card {
-    width: calc(100vw - 50px);
+    width: calc(25 - 110px);
     height: calc(300px - 0.8 * (100vw - 1029px));
     min-height: 200px;
     max-height: 230px;
