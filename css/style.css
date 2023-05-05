@@ -102,6 +102,14 @@ p {
   color: black;
 }
 
+input[type="text"] {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: black;
+}
+
 label {
   margin-right: 16px;
   width: 50px;
