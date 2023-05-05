@@ -21,7 +21,7 @@ body {
 .main-container {
   width: 100%;
   max-width: 1440px;
-  padding: 0 20px 0 50px;
+  padding: 0 20px 0 20px;
   box-sizing: border-box;
 }
 
@@ -45,6 +45,10 @@ nav a {
   font-size: 16px;
   line-height: 19px;
   text-align: center;
+}
+
+.hebergements-link {
+  margin-right: 69px;
 }
 
 nav a:hover {
@@ -219,12 +223,20 @@ input[type="text"] {
   margin-top: -12px;
 }
 
+.hebergement-cards .card-content {
+  margin-left: 10px;
+}
+
 .card-title {
   font-size: 16px;
 }
 
 .euro {
   font-weight: 700;
+}
+
+.hebergement-cards .neutral-star {
+  color: #f2f2f2;
 }
 
 .neutralStar {
@@ -340,17 +352,25 @@ input[type="text"] {
   margin: 65px 0;
 }
 
+#activity h1 {
+  margin-bottom: 30px;
+}
+
 .activity-cards {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  gap: 20px;
   cursor: pointer;
+}
+
+.activity-cards .card-content {
+  margin-left: 10px;
 }
 
 .activity-cards .card {
   padding: 0px; /* remove border */
   width: 250px;
-  height: 409px;
+  height: 420px;
   border-radius: 20px;
 }
 
@@ -416,7 +436,7 @@ footer {
 
   .hebergement-cards .card {
     width: 230px;
-    height: 200px;
+    height: 230px;
   }
 
   .hebergement-cards img {
@@ -425,7 +445,6 @@ footer {
 
   .activity-cards .card {
     width: 250px;
-    height: 409px;
   }
 
   .activity-cards img {
@@ -447,8 +466,7 @@ footer {
 
   .activity-cards .card {
     width: calc(50vw - 110px);
-    height: calc(420px - 0.1 * (100vw - 1029px));
-    min-height: 409px;
+    /* height: calc(420px - 0.1 * (100vw - 1029px)); */
   }
 
   .activity-cards img {
