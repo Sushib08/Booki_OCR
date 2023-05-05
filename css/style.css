@@ -44,7 +44,6 @@ nav a {
   text-decoration: none;
   font-size: 16px;
   line-height: 19px;
-  text-align: center;
 }
 
 .hebergements-link {
@@ -57,7 +56,7 @@ nav a:hover {
   padding-top: 14px;
 }
 
-/*********************************/
+/***********Headline**********************/
 
 .Headline {
   margin-top: 60px;
@@ -102,14 +101,6 @@ p {
   color: black;
 }
 
-input[type="text"] {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
-  text-align: center;
-  color: black;
-}
-
 label {
   margin-right: 16px;
   min-width: 50px;
@@ -126,6 +117,11 @@ input[type="text"] {
   flex-grow: 1;
   border: none;
   outline: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: black;
 }
 
 .search-icon {
@@ -183,7 +179,7 @@ input[type="text"] {
   background: #deebff;
 }
 
-/*********************************/
+/********* Infos************************/
 
 .infos {
   margin: 37.5px 0;
@@ -204,6 +200,8 @@ input[type="text"] {
   justify-content: center;
   align-items: center;
 }
+
+/*******Hebergements And Populaires**********/
 
 .section-title {
   margin: 0;
@@ -367,7 +365,7 @@ input[type="text"] {
 .activity-cards {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 30px;
   cursor: pointer;
 }
 
@@ -399,7 +397,7 @@ footer {
 }
 
 .title-footer {
-  margin-left: 15px;
+  margin-left: 20px;
 }
 
 .title-footer .title-footer2 {
@@ -444,7 +442,6 @@ footer {
 
   .hebergement-cards .card {
     width: 230px;
-    height: 230px;
   }
 
   .hebergement-cards img {
@@ -452,7 +449,7 @@ footer {
   }
 
   .activity-cards .card {
-    width: 250px;
+    width: 300px;
   }
 
   .activity-cards img {
@@ -462,7 +459,7 @@ footer {
 
 @media (min-width: 1024px) and (max-width: 1440px) {
   .hebergement-cards .card {
-    width: calc(25vw - 110px);
+    width: calc(100vw - 50px);
     height: calc(300px - 0.8 * (100vw - 1029px));
     min-height: 200px;
     max-height: 230px;
@@ -766,11 +763,6 @@ footer {
   .hebergement-cards .card-content {
     margin-left: 10px !important;
     margin-top: 5px !important;
-  }
-
-  .hebergement-cards .card-title,
-  .card-subtitle {
-    margin-bottom: 8px !important;
   }
 
   #activity h1 {
