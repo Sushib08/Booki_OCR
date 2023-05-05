@@ -18,7 +18,7 @@ body {
   justify-content: center;
 }
 
-.main-container {
+#container {
   width: 100%;
   max-width: 1440px;
   padding: 0 20px 0 20px;
