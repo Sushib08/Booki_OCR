@@ -9,7 +9,7 @@ L'objectif est de créer une expérience utilisateur cohérente et réactive sur
 ## Structure du projet
 Le projet est organisé de la manière suivante :
 
-- Le dossier `index.html` contient la page d'accueil du site.
+- Le fichier `index.html` contient la page d'accueil du site.
 - Le dossier `css/` contient tous les fichiers CSS utilisés pour la mise en page et le style.
 - Le dossier `images/` contient les images utilisées dans le site.
 
